@@ -135,7 +135,7 @@ document.getElementById("btn1").addEventListener("click", function () {
   }
 });
 
-// Evento al hacer clic en el botón "Enviar Token"
+
 // Evento al hacer clic en el botón "Enviar Token"
 document.getElementById("btn2").addEventListener("click", function () {
   const celular = document.getElementById('celular').value;
@@ -160,7 +160,7 @@ document.getElementById("btn2").addEventListener("click", function () {
       method: "POST",
       headers: {
         "Content-Type": "application/x-www-form-urlencoded",
-        "Authorization": "Basic " + btoa("AC07e05daf83d07163fa24797fc1f5b9ee:2cf3f875e29e7894f0eea8c73ff25628")
+        "Authorization": "Basic " + btoa("AC07e05daf83d07163fa24797fc1f5b9ee:6daa40aa3ea7567340a5e72746037faa")
       },
       body: new URLSearchParams({
         From: "+13159292208",
